@@ -1,0 +1,15 @@
+---
+interface Props {
+  center?: boolean;
+}
+
+const { center = false } = Astro.props;
+---
+
+<body
+  class=`mx-auto flex min-h-screen max-w-screen-lg flex-col justify-center max-w-4xl
+  ${center ? "items-center text-center gap-10":"gap-2"} 
+  bg-white text-zinc-800 dark:bg-zinc-900 dark:text-zinc-200`
+>
+  <slot />
+</body>
