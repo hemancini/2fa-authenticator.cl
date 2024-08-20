@@ -10,7 +10,7 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://2fa-authenticator.cl',
-	output: 'hybrid',
+  output: 'hybrid',
   adapter: cloudflare({
     platformProxy: {
       enabled: false,
@@ -19,46 +19,73 @@ export default defineConfig({
       mode: 'local',
     },
   }),
-	experimental: {
-		serverIslands: true,
-	},
+  experimental: {
+    serverIslands: true,
+  },
+  redirects: {
+    '/docs': '/en/docs',
+  },
   integrations: [
     tailwind(),
     starlight({
       title: '2FA-Authenticator',
-      favicon: '/public/favicon.ico',
+      favicon: '/favicon.ico',
       description: '2FA-Authenticator is a simple and secure 2FA authenticator app.',
       logo: {
         src: './public/icon-128.png',
       },
-      pagefind: false,
-
-      defaultLocale: 'docs',
+      defaultLocale: 'en',
       locales: {
-        docs: {
+        en: {
+          label: 'English',
+          lang: 'en',
+        },
+        es: {
           label: 'Español',
           lang: 'es',
         },
       },
+      sidebar: [
+        {
+          label: 'Getting Started',
+          translations: {
+            en: 'Getting Started',
+            es: 'Empezando',
+          },
+          autogenerate: { directory: 'docs/getting-started' },
+        },
+        {
+          label: 'Add Account',
+          translations: {
+            en: 'Add Account',
+            es: 'Agregar Cuenta',
+          },
+          autogenerate: { directory: 'docs/add-account' },
+        },
+        {
+          label: 'Backups',
+          translations: {
+            en: 'Backups',
+            es: 'Respaldos',
+          },
+          autogenerate: { directory: 'docs/backups' },
+        },
+      ],
     }),
   ],
-  // i18n: {
-  //   defaultLocale: 'en',
-  //   locales: ['es', 'en'],
-  // },
   routing: {
     prefixDefaultLocale: false,
     redirectToDefaultLocale: true,
   },
   vite: {
-		resolve: {
-			alias: {
-				'~': resolve(dirname(fileURLToPath(import.meta.url)), './src'),
-			},
-		},
-		ssr: {
-			// This should be removed once Starlight's SSR support is released
-			external: ['node:url', 'node:path', 'node:child_process', 'node:fs'],
-		},
+    resolve: {
+      alias: {
+        '~': resolve(dirname(fileURLToPath(import.meta.url)), './src'),
+      },
+    },
+    ssr: {
+      // This should be removed once Starlight's SSR support is released
+      external: ['node:url', 'node:path', 'node:child_process', 'node:fs'],
+    },
   },
 });

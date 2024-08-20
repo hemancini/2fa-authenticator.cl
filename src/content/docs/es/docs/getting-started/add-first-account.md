@@ -3,7 +3,7 @@ title: Agregar tu Primera Cuenta
 lang: es
 ver: 1
 sidebar:
-  order: 1
+  order: 2
 ---
 
 Esta guía rápida explica cómo agregar una cuenta de ejemplo a la Extensión 2FA-Authenticator. 
