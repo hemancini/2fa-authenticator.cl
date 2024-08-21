@@ -1,5 +1,5 @@
 ---
-title: 2FA-Authenticator
+title: Documentation
 description: Documentation for the 2FA-Authenticator extension.
 lang: en
 sidebar:

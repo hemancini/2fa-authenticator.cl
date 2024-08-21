@@ -1,6 +1,7 @@
 ---
-title: 2FA-Authenticator
-description: Documentation for the 2FA-Authenticator extension.
+title: Documentación
+description: Documentación para la extensión 2FA-Authenticator.
+lang: es
 sidebar:
   order: 1
 #   hidden: true
