@@ -23,7 +23,7 @@ export default defineConfig({
     serverIslands: true,
   },
   redirects: {
-    '/docs': '/en/docs',
+    '/docs(/|$)': '/en/docs',
   },
   integrations: [
     tailwind(),
