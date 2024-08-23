@@ -1,24 +1,5 @@
 ---
-import Layout from '@/layouts/Layout.astro';
+import AccountPage from '@/pages/account.astro';
 ---
 
-<script>
-  function closeWindow() {
-    console.log('Cerrando ventana...');
-    window.close();
-  }
-
-  window.onload = function () {
-    setTimeout(closeWindow, 1000);
-  };
-</script>
-
-<Layout center title="2FA Authenticator Extension">
-  <div class="mx-auto flex max-w-4xl flex-col gap-6 px-8 pb-8">
-    <h1 class="text-3xl font-bold text-gray-700 md:text-5xl">2FA Authenticator</h1>
-    <p class="text-lg md:text-xl">
-      This window will close automatically...
-      <!-- <span class="text-gray-600 dark:text-gray-400"> Otherwise, you can close it manually.</span> -->
-    </p>
-  </div>
-</Layout>
+<AccountPage />
