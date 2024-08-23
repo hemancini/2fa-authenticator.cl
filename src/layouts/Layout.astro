@@ -1,7 +1,6 @@
 ---
 import { ViewTransitions } from 'astro:transitions';
 import { getLangFromUrl } from '../i18n/utils';
-import config from '../../astro.config.mjs';
 
 import Body from '../components/Body.astro';
 
@@ -9,8 +8,6 @@ interface Props {
   title: string;
   center?: boolean;
 }
-
-const site = config.site;
 
 const { title, center } = Astro.props;
 const lang = getLangFromUrl(Astro.url);
@@ -27,14 +24,14 @@ const lang = getLangFromUrl(Astro.url);
 
     <link rel="sitemap" href="/sitemap-index.xml" />
 
-    <meta property="og:image" content=`${site}/img/promotion-small.png` />
+    <meta property="og:image" content="https://2fa-authenticator.cl/img/promotion-small.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="440" />
     <meta property="og:image:height" content="280" />
     <meta property="og:image:alt" content="logo" />
     <meta property="og:title" content="2FA Authenticator" />
     <meta property="og:description" content="2FA Authenticator Extension" />
-    <meta property="og:url" content={site} />
+    <meta property="og:url" content="https://2fa-authenticator.cl" />
     <meta property="og:site_name" content="2FA Authenticator Extension" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_US" />
