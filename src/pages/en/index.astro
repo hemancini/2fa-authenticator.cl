@@ -1,5 +1,45 @@
 ---
-import Root from '../index.astro';
+import Layout from '@/layouts/Layout.astro';
 ---
 
-<Root />
+<Layout center title="2FA Authenticator Extension">
+  <div class="grid h-screen place-items-center pb-10">
+    <section class="mb-20 flex flex-col gap-8">
+      <div class="text-center">
+        <div class="flex items-center justify-center gap-4">
+          <img src="/img/icon-128.png" alt="Logo" class="h-16 w-16 md:h-24 md:w-24" />
+          <span class="text-6xl font-bold text-gray-700 md:text-7xl dark:text-zinc-200">2FA</span>
+        </div>
+        <span class="mt-2 text-5xl font-bold text-gray-700 md:text-7xl dark:text-zinc-200">Authenticator</span>
+      </div>
+
+      <p class="px-3 text-lg md:text-xl">
+        You no longer need to use your phone to authenticate. This extension provides two-factor authentication (2FA)
+        verification codes directly in your browser.
+      </p>
+      <div class="mt-2 flex flex-col items-center justify-center gap-9 md:mt-4">
+        <a
+          href="https://chromewebstore.google.com/detail/2fa-authenticator/pnnmjhghimefjdmdilmlhnojccjgpgeh"
+          class="rounded-full bg-blue-500 px-7 py-3 text-xl font-semibold uppercase text-white transition duration-300 hover:bg-blue-800 md:text-2xl dark:hover:bg-blue-500"
+          >Add to Chrome</a
+        >
+        <!-- <a
+        href="https://github.com/hemancini/2fa-authenticator"
+        class="rounded-3xl bg-gray-800 px-6 py-3 font-semibold uppercase text-white transition duration-300 hover:bg-gray-900 dark:hover:bg-gray-800"
+        >Ver en GitHub</a
+      > -->
+        <a
+        href="/en/docs/"
+        class="rounded-full bg-gray-600 dark:bg-gray-800 px-6 py-3 font-semibold uppercase text-white transition duration-300 hover:bg-gray-700 dark:hover:bg-gray-900"
+        >Documentation</a>
+      </div>
+    </section>
+    <footer class="absolute bottom-0 left-0 right-0 pb-2 text-center text-sm text-gray-600 dark:text-gray-400">
+      <a
+        href={`/privacy`}
+        class="text-zinc-800 transition duration-300 hover:text-gray-500 dark:text-gray-500 dark:hover:text-zinc-800"
+        >Privacy Policy and Terms of Service</a
+      >
+    </footer>
+  </div>
+</Layout>

@@ -28,5 +28,6 @@
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.6",
     "wrangler": "^3.70.0"
-  }
+  },
+  "homepage": "https://2fa-authenticator.cl/"
 }

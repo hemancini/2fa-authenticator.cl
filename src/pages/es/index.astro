@@ -1,6 +1,6 @@
 ---
-import { getLangFromUrl } from '../../i18n/utils';
-import Layout from '../../layouts/Layout.astro';
+import Layout from '@/layouts/Layout.astro';
+import { getLangFromUrl } from '@/i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
 ---
@@ -10,7 +10,7 @@ const lang = getLangFromUrl(Astro.url);
     <section class="mb-20 flex flex-col gap-8">
       <div class="text-center">
         <div class="flex items-center justify-center gap-4">
-          <img src="/icon-128.png" alt="Logo" class="h-16 w-16 md:h-24 md:w-24" />
+          <img src="/img/icon-128.png" alt="Logo" class="h-16 w-16 md:h-24 md:w-24" />
           <span class="text-6xl font-bold text-gray-700 md:text-7xl dark:text-zinc-200">2FA</span>
         </div>
         <span class="mt-2 text-5xl font-bold text-gray-700 md:text-7xl dark:text-zinc-200">Authenticator</span>
@@ -32,9 +32,10 @@ const lang = getLangFromUrl(Astro.url);
         >Ver en GitHub</a
       > -->
         <a
-        href="/es/docs/"
-        class="rounded-full bg-gray-600 dark:bg-gray-800 px-6 py-3 font-semibold uppercase text-white transition duration-300 hover:bg-gray-700 dark:hover:bg-gray-900"
-        >Documentación</a>
+          href="/es/docs/"
+          class="rounded-full bg-gray-600 px-6 py-3 font-semibold uppercase text-white transition duration-300 hover:bg-gray-700 dark:bg-gray-800 dark:hover:bg-gray-900"
+          >Documentación</a
+        >
       </div>
     </section>
     <footer class="absolute bottom-0 left-0 right-0 pb-2 text-center text-sm text-gray-600 dark:text-gray-400">

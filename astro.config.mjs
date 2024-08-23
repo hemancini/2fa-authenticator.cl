@@ -3,11 +3,9 @@ import { fileURLToPath } from 'node:url';
 
 import { defineConfig } from 'astro/config';
 import cloudflare from '@astrojs/cloudflare';
-
 import starlight from '@astrojs/starlight';
 import tailwind from '@astrojs/tailwind';
 
-// https://astro.build/config
 export default defineConfig({
   site: 'https://2fa-authenticator.cl',
   output: 'hybrid',
@@ -22,9 +20,6 @@ export default defineConfig({
   experimental: {
     serverIslands: true,
   },
-  redirects: {
-    '/docs(/|$)': '/en/docs',
-  },
   integrations: [
     tailwind(),
     starlight({
@@ -32,7 +27,7 @@ export default defineConfig({
       favicon: '/favicon.ico',
       description: '2FA-Authenticator is a simple and secure 2FA authenticator app.',
       logo: {
-        src: './public/icon-128.png',
+        src: './public/img/icon-128.png',
       },
       defaultLocale: 'en',
       locales: {
@@ -73,10 +68,6 @@ export default defineConfig({
       ],
     }),
   ],
-  routing: {
-    prefixDefaultLocale: false,
-    redirectToDefaultLocale: true,
-  },
   vite: {
     resolve: {
       alias: {
