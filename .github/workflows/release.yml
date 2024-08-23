@@ -11,8 +11,11 @@ jobs:
     name: Deploy
     steps:
       - uses: actions/checkout@v4
-      - name: Deploy
-        uses: cloudflare/wrangler-action@v3
+      - uses: pnpm/action-setup@v4.0.0
+      - uses: actions/setup-node@v4
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          packageManager: pnpm
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+      - run: pnpm i --frozen-lockfile
+      - run: pnpm build
+      - run: pnpm run deploy
