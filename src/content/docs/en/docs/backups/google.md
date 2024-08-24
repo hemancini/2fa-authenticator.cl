@@ -22,6 +22,10 @@ Syncing with Google Drive is a secure way to keep your backups in the cloud. To 
 
   ![backups-detail](/img/docs/backups-detail.webp)
 
+- You will see your imported accounts.
+
+  ![popup](/img/docs/popup.webp)
+
 ## Create a Backup in Google Drive
 
 To create a backup in Google Drive:

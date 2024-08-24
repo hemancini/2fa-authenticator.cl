@@ -22,6 +22,11 @@ La sincronización con Google Drive es una forma segura de mantener tus copias d
 
   ![backups-detail](/img/docs/backups-detail.webp)
 
+- Verás tus cuentas importadas.
+
+  ![popup](/img/docs/popup.webp)
+
+
 ## Crear un Respaldo en Google Drive
 
 Para crear un respaldo en Google Drive: 
