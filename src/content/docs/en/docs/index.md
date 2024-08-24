@@ -13,6 +13,11 @@ This is the documentation for the 2FA-Authenticator extension.
 
 2FA-Authenticator is a browser extension that allows you to authenticate your accounts easily. The extension generates two-factor authentication (2FA) codes for your accounts and displays them in your browser so you can copy and paste them into the corresponding website.
 
+<video autoplay muted loop style="border-radius: 18px;display: block;">
+  <source src="/img/docs/getting-started.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
 ### How does it work?
 
 When you visit a website that requires two-factor authentication, with the 2FA-Authenticator extension installed, you can scan the account's QR code on the website, and the extension will generate a two-factor authentication code for that account. You can then copy the code and paste it into the website to complete the authentication.

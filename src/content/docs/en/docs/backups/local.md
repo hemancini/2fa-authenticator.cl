@@ -7,7 +7,7 @@ ver: 1
 
 To import or export local backups.
 
-  ![backups-local](/img/docs/backups-local.png)
+  ![backups-local](/img/docs/backups-local.webp)
 
 ## Import Backup
 

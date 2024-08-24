@@ -9,7 +9,7 @@ ver: 1
 
 - Luego se hacer click en el botón de escanear código QR. 
   
-  ![escanear-codigo-qr](/img/docs/scan-qr-code-button.png)  
+  ![escanear-codigo-qr](/img/docs/scan-qr-code-button.webp)  
 
 - Tambien puedes hacer click en el botón de escanear código QR de la barra de navegación.
 

@@ -9,7 +9,7 @@ You can import your two-factor authentication (2FA) tokens from a backup in your
 
 ### Import Options
 
-![import-from-backups](/img/docs/add-backups.png)
+![import-from-backups](/img/docs/add-backups.webp)
 
 Available import options:
 

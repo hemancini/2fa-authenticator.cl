@@ -7,7 +7,7 @@ ver: 1
 
 Para importar o exportar copias de seguridad locales.
 
-  ![backups-local](/img/docs/backups-local.png)
+  ![backups-local](/img/docs/backups-local.webp)
 
 ## Importar Respaldo  
 

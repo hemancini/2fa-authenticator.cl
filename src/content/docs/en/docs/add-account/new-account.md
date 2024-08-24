@@ -8,11 +8,11 @@ ver: 1
 
 1. Click on the options icon in the top-right corner of the window and select **Add Account**.
 
-    ![click option button](/img/docs/more-options-add-entry.png)
+    ![click option button](/img/docs/more-options-add-entry.webp)
 
 2. You will see the **Add New Account** menu with the following options:
 
-    ![options menu](/img/docs/add-entry-menu.png)
+    ![options menu](/img/docs/add-entry-menu.webp)
 
 ### Add New Accounts
 

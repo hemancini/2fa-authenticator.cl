@@ -27,7 +27,7 @@ export default defineConfig({
       favicon: '/favicon.ico',
       description: '2FA-Authenticator is a simple and secure 2FA authenticator app.',
       logo: {
-        src: './public/img/icon-128.png',
+        src: './public/img/icon-128.webp',
       },
       defaultLocale: 'en',
       locales: {

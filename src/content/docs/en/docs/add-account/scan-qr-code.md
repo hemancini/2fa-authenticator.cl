@@ -9,7 +9,7 @@ ver: 1
 
 - Then, click on the scan QR code button.
 
-  ![scan-qr-code](/img/docs/scan-qr-code-button.png)
+  ![scan-qr-code](/img/docs/scan-qr-code-button.webp)
 
 - You can also click on the scan QR code button in the navigation bar.
 

@@ -8,11 +8,11 @@ ver: 1
 
 1. Click en el ícono de opciones en la esquina superior derecha de la ventana y selecciona **Agregar cuenta**.
 
-    ![click option button](/img/docs/more-options-add-entry.png)
+    ![click option button](/img/docs/more-options-add-entry.webp)
 
 2. Verás el menú de **Agregar Nueva Cuenta** con las siguientes opciones:
    
-    ![options menu](/img/docs/add-entry-menu.png)
+    ![options menu](/img/docs/add-entry-menu.webp)
 
 ### Agregar Nuevas Cuentas
 

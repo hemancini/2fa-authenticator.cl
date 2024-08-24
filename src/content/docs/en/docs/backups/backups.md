@@ -7,7 +7,7 @@ ver: 1
 
 You can sync your tokens with cloud storage services like Google Drive. Additionally, you can import or generate backup files.
 
-![Backups](/img/docs/backups.png)
+![Backups](/img/docs/backups.webp)
 
 ## Sync with Google Drive
 

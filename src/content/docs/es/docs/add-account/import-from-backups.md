@@ -9,7 +9,7 @@ Puedes importar tus tokens de autenticación de dos factores (2FA) desde un resp
 
 ### Opciones de Importación
 
-![import-from-backups](/img/docs/add-backups.png)
+![import-from-backups](/img/docs/add-backups.webp)
 
 Las opciones de importación disponibles:
 

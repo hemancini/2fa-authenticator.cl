@@ -12,15 +12,15 @@ You can sync your tokens with cloud storage services like Google Drive. Addition
 2. Click on the **menu** icon in the top-left corner.
 3. Select **Backups** from the menu.
 
-   ![sidebar](/img/docs/sidebar.png)
+   ![sidebar](/img/docs/sidebar.webp)
 
 4. Click on **Show Google Backups**. (Sign in to your Google account)
 6. You will see a list of your synced backups. Choose the backup you want to restore.
 
-   ![my-backups](/img/docs/my-backups.png)
+   ![my-backups](/img/docs/my-backups.webp)
 
 8. You can **restore all** your accounts or select **specific** accounts.
 
-   ![backups-detail](/img/docs/backups-detail.png)
+   ![backups-detail](/img/docs/backups-detail.webp)
 
 You can see more details about [Syncing with Google Drive](/docs/import-or-export-backups/google/).

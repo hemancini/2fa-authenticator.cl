@@ -13,6 +13,11 @@ Esta es la documentación de la extensión 2FA-Authenticator.
 
 2FA-Authenticator es una extensión de navegador que te permite autenticarte en tus cuentas de forma simple. La extensión genera códigos de autenticación de dos factores (2FA) para tus cuentas y los muestra en tu navegador para que puedas copiarlos y pegarlos en el sitio web correspondiente.
 
+<video autoplay muted loop style="border-radius: 18px;display: block;">
+  <source src="/img/docs/getting-started.webm" type="video/webm">
+  Tu navegador no soporta el elemento video.
+</video>
+
 ### ¿Cómo funciona?
 
 Cuando visitas un sitio web que requiere autenticación de dos factores, con la extensión 2FA-Authenticator instalada, puedes escanear el código QR de la cuenta en el sitio web y la extensión generará un código de autenticación de dos factores para esa cuenta. Luego, puedes copiar el código y pegarlo en el sitio web para completar la autenticación.

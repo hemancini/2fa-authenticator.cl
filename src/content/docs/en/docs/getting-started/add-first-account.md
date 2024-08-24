@@ -14,7 +14,7 @@ Install the 2FA-Authenticator Extension ([Chrome](https://chrome.google.com/webs
 
 Once you install the 2FA-Authenticator Extension in Chrome, you can pin its icon to the toolbar.
 
-![pin to toolbar](/img/docs/pin-extension.png)
+![pin to toolbar](/img/docs/pin-extension.webp)
 
 ## Scanning a QR Code
 
@@ -22,7 +22,7 @@ Once you install the 2FA-Authenticator Extension in Chrome, you can pin its icon
 
 - Then, click on the **Scan QR Code** icon in the top-right corner of the window.
 
-    ![click qr button](/img/docs/scan-qr-code-button.png)
+    ![click qr button](/img/docs/scan-qr-code-button.webp)
 
 - Click and drag to draw a square that fully covers the QR code.
 

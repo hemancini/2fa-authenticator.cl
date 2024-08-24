@@ -7,7 +7,7 @@ ver: 1
 
 Puedes sincronizar tus tokens con servicios de almacenamiento en la nube como Google Drive. Además, puedes importar o generear archivos de respaldo.
 
-![Backups](/img/docs/backups.png)
+![Backups](/img/docs/backups.webp)
 
 ## Sincronizar con Google Drive
 

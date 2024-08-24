@@ -16,11 +16,11 @@ Syncing with Google Drive is a secure way to keep your backups in the cloud. To 
 
 - Select the backup you want to sync.
 
-  ![my-backups](/img/docs/my-backups.png)
+  ![my-backups](/img/docs/my-backups.webp)
 
 - You can **import all** your accounts or **select** specific accounts to import.
 
-  ![backups-detail](/img/docs/backups-detail.png)
+  ![backups-detail](/img/docs/backups-detail.webp)
 
 ## Create a Backup in Google Drive
 
@@ -28,8 +28,8 @@ To create a backup in Google Drive:
 
 - Click on the **Generate Google Backup** button.
 
-  ![google-export](/img/docs/google-export.png)
+  ![google-export](/img/docs/google-export.webp)
 
 - Click the **Save** button.
 
-  ![google-export-success](/img/docs/google-export-success.png)
+  ![google-export-success](/img/docs/google-export-success.webp)

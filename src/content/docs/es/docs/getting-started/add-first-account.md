@@ -14,7 +14,7 @@ Instala la Extensión 2FA-Authenticator ([Chrome](https://chrome.google.com/webs
 
 Cuando instales la Extensión 2FA-Authenticator en Chrome, puedes anclar su icono en la barra de herramientas.  
 
-![pin to toolbar](/img/docs/pin-extension.png)
+![pin to toolbar](/img/docs/pin-extension.webp)
 
 ## Escaneando un Código QR
 
@@ -22,7 +22,7 @@ Cuando instales la Extensión 2FA-Authenticator en Chrome, puedes anclar su icon
 
 - Luego, clic en el icono de **Escanear Código QR** en la esquina superior derecha de la ventana.
 
-    ![click qr button](/img/docs/scan-qr-code-button.png)
+    ![click qr button](/img/docs/scan-qr-code-button.webp)
 
 - Haz clic y arrastra para dibujar un cuadrado que cubra completamente el código QR
 
