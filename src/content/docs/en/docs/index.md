@@ -9,7 +9,7 @@ sidebar:
 
 This is the documentation for the 2FA-Authenticator extension.
 
-<video autoplay muted loop style="border-radius: 18px;display: block;">
+<video autoplay muted loop style="border-radius: 15px;display: block;">
   <source src="/img/docs/getting-started.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
@@ -30,10 +30,10 @@ You can install the 2FA-Authenticator extension from the [Chrome Web Store](http
 
 For detailed instructions on how to use the 2FA-Authenticator extension, please refer to the documentation below.
 
-  - [Add Your First Account](docs/getting-started/add-first-account)
-  - [Scan QR Code](/docs/adding-accounts/scan-qr-code)
-  - [Add New Account](/docs/adding-accounts/add-new-account) 
-  - [Import from Backups](/docs/adding-accounts/import-from-backups/)
-  - [TOTP URI](/docs/adding-accounts/totp-uri/)
-  - [Manual Entry](/docs/adding-accounts/manual-entry/)
-  - [Upload QR Code Images](/docs/adding-accounts/upload-qr-images)
+  - [Add Your First Account](/en/docs/getting-started/add-first-account)
+  - [Scan QR Code](/en/docs/add-account/scan-qr-code/)
+  - [Add New Account](/en/docs/add-account/new-account/) 
+  - [Import from Backups](/en/docs/add-account/import-from-backups/)
+  - [TOTP URI](/en/docs/add-account/totp-uri/)
+  - [Manual Entry](/en/docs/add-account/manual-entry/)
+  - [Upload QR Code Images](/en/docs/add-account/upload-qr-images/)

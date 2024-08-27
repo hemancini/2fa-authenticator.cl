@@ -9,7 +9,7 @@ sidebar:
 
 Esta es la documentación de la extensión 2FA-Authenticator.
 
-<video autoplay muted loop style="border-radius: 18px;display: block;">
+<video autoplay muted loop style="border-radius: 15px;display: block;">
   <source src="/img/docs/getting-started.webm" type="video/webm">
   Tu navegador no soporta el elemento video.
 </video>
@@ -30,12 +30,12 @@ Puedes instalar la extensión 2FA-Authenticator desde la [Chrome Web Store](http
 
 Para obtener instrucciones detalladas sobre cómo usar la extensión 2FA-Authenticator, consulta la documentación a continuación.
 
-  - [Agregar tu Primera Cuenta](docs/como-empezar/add-first-account)
-  - [Escanear Código QR](/docs/agregar-cuentas/scan-qr-code)
-  - [Agregar Nueva Cuenta](/docs/agregar-cuentas/add-new-account) 
-  - [Importar desde Respaldos](/docs/agregar-cuentas/import-from-backups/)
-  - [TOPT URI](/docs/agregar-cuentas/totp-uri/)
-  - [Entrada Manual](/docs/agregar-cuentas/manual-entry/)
-  - [Subir Imágenes de Código QR](/docs/agregar-cuentas/upload-qr-images)
+  - [Agregar tu Primera Cuenta](/es/docs/getting-started/add-first-account)
+  - [Escanear Código QR](/es/docs/add-account/scan-qr-code/)
+  - [Agregar Nueva Cuenta](/es/docs/add-account/new-account/) 
+  - [Importar desde Respaldos](/es/docs/add-account/import-from-backups/)
+  - [TOPT URI](/es/docs/add-account/totp-uri/)
+  - [Entrada Manual](/es/docs/add-account/manual-entry/)
+  - [Subir Imágenes de Código QR](/es/docs/add-account/upload-qr-images/)
 
 
