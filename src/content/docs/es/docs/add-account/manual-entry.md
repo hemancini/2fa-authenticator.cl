@@ -13,5 +13,5 @@ ver: 1
 - Presiona el botón **Agregar** para guardar la cuenta.
 - Si todo está correcto, verás tu cuenta en la aplicación.
 
-![manual-entry](/img/docs/add-manual-sucess.webp)
+![manual-entry](/img/docs/add-manual-success.webp)
 

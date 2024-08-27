@@ -18,8 +18,8 @@ ver: 1
 
 The 2FA-Authenticator Extension allows you to add accounts in different ways:
 
-- **[Scan QR Code](/docs/adding-accounts/scan-qr-code/)**: Scan a QR code to add a new account.
-- **[Upload QR Code Images](/docs/adding-accounts/upload-qr-images/)**: Upload an image of a QR code to add a new account.
-- **[TOTP URI](/docs/adding-accounts/totp-uri/)**: Add a new account using a TOTP URL.
-- **[Import from Backups](/docs/adding-accounts/import-from-backups/)**: Import an account from a backup file.
-- **[Add Account Manually](/docs/adding-accounts/manual-entry/)**: Add a new account manually.
+- **[Scan QR Code](/en/docs/add-account/scan-qr-code/)**: Scan a QR code to add a new account.
+- **[Upload QR Code Images](/en/docs/add-account/upload-qr-images/)**: Upload an image of a QR code to add a new account.
+- **[TOTP URI](/en/docs/add-account/totp-uri/)**: Add a new account using a TOTP URL.
+- **[Import from Backups](/en/docs/add-account/import-from-backups/)**: Import an account from a backup file.
+- **[Add Account Manually](/en/docs/add-account/manual-entry/)**: Add a new account manually.
