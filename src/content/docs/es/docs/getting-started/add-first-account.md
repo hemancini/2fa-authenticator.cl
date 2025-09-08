@@ -10,9 +10,9 @@ Esta guía rápida explica cómo agregar una cuenta de ejemplo a la Extensión 2
 
 ## Prerrequisitos
 
-Instala la Extensión 2FA-Authenticator ([Chrome](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai))
+Instala la Extensión 2FA-Authenticator ([Chrome](https://chromewebstore.google.com/detail/2fa-authenticator/pnnmjhghimefjdmdilmlhnojccjgpgeh) | [Edge](https://microsoftedge.microsoft.com/addons/detail/2fa-authenticator/hgnbjfcmpjakgfkjmmidclfkhedggmeo))
 
-Cuando instales la Extensión 2FA-Authenticator en Chrome, puedes anclar su icono en la barra de herramientas.  
+Cuando instales la Extensión 2FA-Authenticator en tu navegador, puedes anclar su ícono en la barra de herramientas.  
 
 ![pin to toolbar](/img/docs/pin-extension.webp)
 

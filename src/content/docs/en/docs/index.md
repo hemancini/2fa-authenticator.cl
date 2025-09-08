@@ -24,7 +24,7 @@ When you visit a website that requires two-factor authentication, with the 2FA-A
 
 ### How to install?
 
-You can install the 2FA-Authenticator extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/2fa-authenticator/pnnmjhghimefjdmdilmlhnojccjgpgeh).
+You can install the 2FA-Authenticator extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/2fa-authenticator/pnnmjhghimefjdmdilmlhnojccjgpgeh) or [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/2fa-authenticator/hgnbjfcmpjakgfkjmmidclfkhedggmeo).
 
 ### How to use?
 

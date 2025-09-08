@@ -10,9 +10,9 @@ This quick guide explains how to add a sample account to the 2FA-Authenticator E
 
 ## Prerequisites
 
-Install the 2FA-Authenticator Extension ([Chrome](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai)).
+Install the 2FA-Authenticator Extension ([Chrome](https://chromewebstore.google.com/detail/2fa-authenticator/pnnmjhghimefjdmdilmlhnojccjgpgeh) | [Edge](https://microsoftedge.microsoft.com/addons/detail/2fa-authenticator/hgnbjfcmpjakgfkjmmidclfkhedggmeo)).
 
-Once you install the 2FA-Authenticator Extension in Chrome, you can pin its icon to the toolbar.
+Once you install the 2FA-Authenticator Extension in your browser, you can pin its icon to the toolbar.
 
 ![pin to toolbar](/img/docs/pin-extension.webp)
 
